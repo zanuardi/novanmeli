@@ -27,27 +27,11 @@
 <body>
 
 
-  <script>
-    // Function to get the parameter value from the URL
-    function getParamFromUrl(param) {
-      const urlParams = new URLSearchParams(window.location.search);
-      return urlParams.get(param);
-    }
-
-    // Get the "name" parameter from the URL
-    const nameParam = getParamFromUrl('to');
-
-    // Update the welcome message based on the parameter value
-    if (nameParam) {
-      document.getElementById('welcomeMessage').innerText = 'Welcome, ' + nameParam + '!';
-    }
-  </script>
 
   <section id="hero"
     class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
     <main>
       <h4>Kepada <span>Bapak/Ibu/Saudara/i, </span></h4>
-      <h4 id="nameParam"></h4>
       <h1>Novan & Meli</h1>
       <p>Akan melangsungkan resepsi pernikahan dalam:</p>
       <div class="simply-countdown"></div>
