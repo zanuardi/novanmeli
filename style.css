@@ -100,6 +100,11 @@ body {
   font-weight: bold;
 }
 
+.gifts {
+  background-image: url(img/bg.png);
+  background-size: cover;
+}
+
 .home h3 {
   color: #444;
   font-size: 1.5rem;
@@ -316,7 +321,8 @@ body {
 }
 
 .rsvp {
-  background-color: var(--bg);
+  background-image: url(img/bg.png);
+  background-size: cover;
 }
 
 .rsvp h2 {
