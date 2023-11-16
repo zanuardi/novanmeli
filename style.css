@@ -143,8 +143,10 @@ body {
 }
 
 .info {
-  background-color: var(--bg);
-  color: white;
+  background-image: url(img/bg.png);
+  background-size: cover;
+  /* background-color: var(--bg); */
+  color: rgb(0, 0, 0);
   padding-top: 10rem;
   padding-bottom: 8rem;
 }
@@ -160,7 +162,7 @@ body {
 
 .info .card {
   background-color: rgba(255, 255, 255, 0.2) !important;
-  color: white !important;
+  color: rgb(10, 10, 10) !important;
   border: 1px solid #999;
 }
 
@@ -175,9 +177,14 @@ body {
 }
 
 .info .card-footer {
-  border-top: 1px solid #999;
+  border-top: 1px solid #242424;
   font-size: 0.9rem;
   font-weight: 300;
+}
+
+.story {
+  background-image: url(img/bg.png);
+  background-size: cover;
 }
 
 .story,
